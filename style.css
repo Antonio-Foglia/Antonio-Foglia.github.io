@@ -1,0 +1,18 @@
+.title {
+  color: #fff;
+  font-size: 70px;
+  margin: 0px;
+  background-color: #1B4F72;
+  text-align: center;
+}
+
+.subtitle {
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
