@@ -151,12 +151,12 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 100vh;
+  min-height: 656px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   pointer-events: auto;
-  margin: 0 auto 0 0;
+  margin: 1px auto 1px 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -178,6 +178,10 @@
 @media (max-width: 1199px) {
   .u-section-1 {
     min-height: 203px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 541px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -228,13 +232,6 @@
 
   .u-section-1 .u-sheet-1 {
     min-height: 377px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -447,10 +444,16 @@
 .u-block-a423-3 {
   position: absolute;
   left: 0;
+  width: 51px;
+  height: 51px;
 }
 
 .u-block-a423-4 {
   position: absolute;
+  width: 51px;
+  height: 51px;
+  left: auto;
+  top: 368px;
   right: 0;
 }.u-section-4 {
   background-image: linear-gradient(to right, black, #1a1a1a);
@@ -461,53 +464,33 @@
 }
 
 .u-section-4 .u-social-icons-1 {
-  height: 69px;
+  height: 63px;
   min-height: 16px;
-  width: 408px;
-  min-width: 248px;
-  margin: 49px auto 42px;
+  width: 254px;
+  min-width: 112px;
+  margin: 52px auto 37px;
 }
 
 .u-section-4 .u-icon-1 {
-  height: 100%;
+  color: rgb(0, 0, 0) !important;
 }
 
 .u-section-4 .u-icon-2 {
-  height: 100%;
+  color: rgb(0, 0, 0) !important;
 }
 
 .u-section-4 .u-icon-3 {
-  height: 100%;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-social-icons-1 {
-    width: 164px;
-    min-width: 68px;
-    margin-top: 50px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-4 .u-social-icons-1 {
-    margin-top: 51px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-4 .u-social-icons-1 {
-    margin-top: 50px;
-    margin-bottom: 0;
+    width: 253px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
     min-height: 129px;
-  }
-
-  .u-section-4 .u-social-icons-1 {
-    margin-top: 30px;
   }
 }
