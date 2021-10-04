@@ -494,26 +494,3 @@
     min-height: 129px;
   }
 }
-
-/* BEGIN MYSTUFF */
-
-html_particle,body_particle{
-	width:100%;
-	height:100%;
-	background:#000000;
-}
-
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-#div_particle{
-  text-align: center;
-  align-items: center;
-}

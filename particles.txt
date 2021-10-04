@@ -1,6 +1,9 @@
 When preparing for publishing and implementing particles:
 
 
+NOW DONE BY RUNNING main.py AND ENTERING VERSION NUMBER.
+
+
 index.html & home.html
 ----------------------
 
