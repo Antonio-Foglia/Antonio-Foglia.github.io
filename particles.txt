@@ -1,0 +1,55 @@
+When preparing for publishing and implementing particles:
+
+
+index.html & home.html
+----------------------
+
+
+1. Change the name section with:
+
+<!-- START PART EDITED BY ME -->
+    <section class="u-clearfix u-gradient u-section-1" id="particles-js">
+
+      <script src="particles/js/particles.js"></script>
+      <script src="particles/js/app.js"></script>
+
+      <div style="position: absolute; display: block; margin: 0; padding: 0; top: 40%; left: 50%; transform: translate3d(-50%,-50%,0); color: white; text-align: center!important;">
+        <h2 class="u-custom-font u-font-roboto-slab u-text u-text-body-alt-color u-text-1" data-animation-name="fadeIn" data-animation-duration="1750" data-animation-delay="0" data-animation-direction="Up">antonio foglia.<span style="font-weight: 700;">
+            <span style="font-weight: 400;"></span>
+          </span>
+        </h2>
+      </div>
+    </section>
+    <!-- END PART EDITED BY ME -->
+
+2. Delete footer
+
+
+home.css
+--------
+
+1. Append to the end:
+
+/* BEGIN MYSTUFF */
+
+html_particle,body_particle{
+	width:100%;
+	height:100%;
+	background:#000000;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#div_particle{
+  text-align: center;
+  align-items: center;
+}
+
