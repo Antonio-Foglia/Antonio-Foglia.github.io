@@ -38,6 +38,7 @@ for curr_file in html_files:
         <span>Website Builder Software</span>
       </a>.
     </section>'''
+    
   no_footer = "<!-- Succesfully removed -->"
 
   filedata = filedata.replace(footer, no_footer)
