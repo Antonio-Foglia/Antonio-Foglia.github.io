@@ -25,7 +25,7 @@ Current WIP
 -----------
 
 - Writing python script to automatically add particles when new version is created with nicepage
-- Adding experience section to the website
-- Improving mobile versio
+- Adding experience and interests section to the website
+- Improving mobile version
 
 
